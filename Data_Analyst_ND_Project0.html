@@ -212,7 +212,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="3.-How-is-the-dependent-variable-operationally-defined?">3. How is the dependent variable operationally defined?<a class="anchor-link" href="#3.-How-is-the-dependent-variable-operationally-defined?">&#182;</a></h4><p>The "Food Pinching Performance" was determined by counting the number of peanuts picked and placed in a cup (PPPC).</p>
+<h4 id="3.-How-is-the-dependent-variable-operationally-defined?">3. How is the dependent variable operationally defined?<a class="anchor-link" href="#3.-How-is-the-dependent-variable-operationally-defined?">&#182;</a></h4><p>It was defined as the number of peanuts picked and placed in a cup (PPPC) with chopsticks. (Except why is it a floating point number? Did they do something to normalize it? Can't tell.)</p>
 
 </div>
 </div>
@@ -226,6 +226,7 @@ div#notebook {
 <li>Age.</li>
 <li>Gender.</li>
 <li>Social group (students).</li>
+<li>Type and size of food they picked up (peanuts are hard, small, and pretty uniform).</li>
 </ul>
 
 </div>
@@ -1034,7 +1035,7 @@ RU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="6.-Based-on-the-scatterplot-created-from-the-code-above,-interpret-the-relationship-you-see.-What-do-you-notice?">6. Based on the scatterplot created from the code above, interpret the relationship you see. What do you notice?<a class="anchor-link" href="#6.-Based-on-the-scatterplot-created-from-the-code-above,-interpret-the-relationship-you-see.-What-do-you-notice?">&#182;</a></h4><p>Length of 240 is the best. From 180 to 240, efficiency goes up, but after 240 it drops and keeps dropping, even though there is a small spike at 330, which may or may not be accidental.</p>
+<h4 id="6.-Based-on-the-scatterplot-created-from-the-code-above,-interpret-the-relationship-you-see.-What-do-you-notice?">6. Based on the scatterplot created from the code above, interpret the relationship you see. What do you notice?<a class="anchor-link" href="#6.-Based-on-the-scatterplot-created-from-the-code-above,-interpret-the-relationship-you-see.-What-do-you-notice?">&#182;</a></h4><p>Length of 240 is the best. From 180 to 240, efficiency goes up, but after 240 it drops and keeps dropping. There is, however, a small spike at 330, which may or may not be accidental.</p>
 
 </div>
 </div>
@@ -1049,9 +1050,10 @@ RU5ErkJggg==
 <ul>
 <li>Females.</li>
 <li>Older people.</li>
-<li>Sample size is pretty small.
-Also, the difference between ~24.0 and ~26.4 (worst and best average performance) is not that big. It's about 10%. It may have been affected by factors other than chopstick length. The way to see if this difference is significant is to measure performance more than one time with the same subjects using the same length chopsticks, and look at how widely the results vary.</li>
+<li>Sample size is pretty small.</li>
+<li>We don't know for sure, but it does not look like the data has been cleaned up before analysis. There may be outliers or errors in there.</li>
 </ul>
+<p>In addition, the difference between ~24.0 and ~26.4 (worst and best average performance) is not that big. It's about 10%. It may have been affected by factors other than chopstick length. The way to see if this difference is significant is to measure performance several times using the same subjects and the same length chopsticks, and look at the variance.</p>
 
 </div>
 </div>
